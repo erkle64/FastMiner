@@ -13,7 +13,7 @@ namespace FastMiner
             MODNAME = "FastMiner",
             AUTHOR = "erkle64",
             GUID = "com." + AUTHOR + "." + MODNAME,
-            VERSION = "1.0.0.0";
+            VERSION = "1.0.0";
 
         public static BepInEx.Logging.ManualLogSource log;
 
@@ -28,7 +28,6 @@ namespace FastMiner
 
             try
             {
-                // Register our custom Types in Il2Cpp
                 ClassInjector.RegisterTypeInIl2Cpp<ItemTemplateComponent>();
 
                 var go = new GameObject("TrainerObject");
@@ -37,24 +36,20 @@ namespace FastMiner
             }
             catch
             {
-                log.LogError("[Trainer] FAILED to Register Il2Cpp Type: ItemTemplateComponent!");
+                log.LogError("FAILED to Register Il2Cpp Type: ItemTemplateComponent!");
             }
 
             try
             {
                 var harmony = new Harmony(GUID);
 
-                // Our Primary Unity Event Hooks 
-
                 var original = AccessTools.Method(typeof(ItemTemplate), "LoadAllItemTemplatesInBuild");
-                log.LogMessage("[Trainer] Harmony - Original Method: " + original.DeclaringType.Name + "." + original.Name);
                 var post = AccessTools.Method(typeof(ItemTemplateComponent), "LoadAllItemTemplatesInBuild");
-                log.LogMessage("[Trainer] Harmony - Postfix Method: " + post.DeclaringType.Name + "." + post.Name);
                 harmony.Patch(original, postfix: new HarmonyMethod(post));
             }
             catch
             {
-                log.LogError("[Trainer] Harmony - FAILED to Apply Patch's!");
+                log.LogError("Harmony - FAILED to Apply Patch's!");
             }
         }
     }
