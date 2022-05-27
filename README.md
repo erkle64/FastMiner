@@ -7,7 +7,7 @@ A simple mod to make the drill and laser super fast.
 1. **Download**  
 Download [FastMiner](https://github.com/erkle64/FastMiner/releases).
 
-2. **Install**
+2. **Install**  
 Extract everything inside the zip into your Foundry folder.
 
 #### Installation
