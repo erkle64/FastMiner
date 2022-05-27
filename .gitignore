@@ -1,0 +1,6 @@
+
+FastMiner/.vs/*
+FastMiner/obj/*
+FastMiner/bin/*
+Libraries/*.dll
+.vs/*
