@@ -10,6 +10,6 @@ Download [FastMiner](https://github.com/erkle64/FastMiner/releases).
 2. **Install**  
 Extract everything inside the zip into your Foundry folder.
 
-#### Installation
+#### Compatibility
 
 Unlikely to be compatible with other mods.
