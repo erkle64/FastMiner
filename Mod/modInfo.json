@@ -1,0 +1,9 @@
+{
+  "identifier": "erkle64.FastMiner",
+  "displayName": "FastMiner",
+  "assetBundles": [ ],
+  "assemblies": [
+    "FastMiner.dll"
+  ]
+}
+

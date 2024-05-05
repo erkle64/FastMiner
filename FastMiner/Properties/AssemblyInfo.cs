@@ -1,18 +1,18 @@
-﻿using System.Reflection;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FastMiner")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FastMiner")]
-[assembly: AssemblyCopyright("Copyright ©  2022")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
+//[assembly: AssemblyTitle("UnfoundryStart")]
+//[assembly: AssemblyDescription("")]
+//[assembly: AssemblyConfiguration("")]
+//[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("UnfoundryStart")]
+//[assembly: AssemblyCopyright("Copyright �  2022")]
+//[assembly: AssemblyTrademark("")]
+//[assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
 // to COM components.  If you need to access a type in this assembly from
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7abca55f-e594-4405-8c9e-1bab2b3b7dbf")]
+[assembly: Guid("4d3457cb-c66a-4b7f-9c93-1789491c0ad9")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -33,4 +33,5 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+//[assembly: AssemblyFileVersion("1.0.0.0")]
+

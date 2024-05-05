@@ -4,3 +4,5 @@ FastMiner/obj/*
 FastMiner/bin/*
 Libraries/*.dll
 .vs/*
+
+DoRename.ps1
